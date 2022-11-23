@@ -148,9 +148,28 @@ body {
 }
 
 .contacts:hover,
-.contacts:focus {
+.contacts:focus,
+.nav-email-icon:hover,
+.nav-email-icon:focus,
+.nav-number-icon:hover,
+.nav-number-icon:focus
+ {
   color: var(--accent-color);
 }
+
+.email, .phone-number {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-email-icon, .nav-number-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 
 /* МЕЙН-КОНТЕНТ */
 
