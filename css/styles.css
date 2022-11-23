@@ -136,7 +136,7 @@ body {
 }
 
 .main-contacts .contacts {
-  display: block;
+  display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -158,7 +158,6 @@ body {
 }
 
 .email, .phone-number {
-  display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -169,7 +168,6 @@ body {
   margin-right: 10px;
   fill: currentColor;
 }
-
 
 /* МЕЙН-КОНТЕНТ */
 
