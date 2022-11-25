@@ -506,7 +506,7 @@ body {
   color: var(--accent-color);
 }
 
-.footer-container {
+.address-container {
   display: flex;
 }
 
